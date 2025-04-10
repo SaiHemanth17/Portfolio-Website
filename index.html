@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Madfolio</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/Madhu Nayani.png"
+              alt="Madhu Nayani Logo"
+              class="header__logo-img header__logo-img--sm"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Madhu Nayani</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary"> Hey, <span class="my-name-is" >My name is</span> <span class="my-name">Madhu Nayani</span></h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            By day, I’m a Full Stack Web Developer shifting through code with HTML, CSS, JavaScript, Node.js, React.js, SQL, and Git like gears in a finely tuned machine. 
+            By night (and let’s be real—most weekends), I’m a certified gearhead and motorhead, obsessed with anything that roars, rolls, or revs. Whether I’m debugging a backend or rebuilding an engine, 
+            I live for the thrill of creating—on the web or under the hood. I don’t just build websites; I engineer them with the precision of a race-tuned V8.
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/madhunayani/" target="_blank" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/SaiHemanth17" target="_blank" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://x.com/Mad_hu17" target="_blank" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/twitter-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://www.instagram.com/theonlymelophile/" target="_blank"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          >
+            <img
+              src="./assets/png/insta-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">🏁 About Me</span>
+          <span class="heading-sec__sub">
+            Hey there — I’m Madhu, the guy who lives where engine grease meets Git commits, and where chrome pistons and clean code run side by side.<br/>
+
+            By day, I’m a MERN Stack Developer, slinging JavaScript like a gearshift, building full-stack web apps that run smoother than a V12 at redline. MongoDB, Express, React, and Node — that’s my powertrain. I architect clean, responsive, high-performance websites like I’m tuning a custom street racer.<br/>
+
+            But when the code sleeps, the engines roar. I’m a gearhead, a motorhead, someone who finds peace in the growl of an inline-4 or the thunder of a twin-cylinder beast. Whether it’s tearing down a bike engine or test-driving a dream machine, I live for torque, speed, and raw adrenaline.<br/>
+
+            I don’t just build websites — I engineer digital machines.<br/>
+            I don’t just code — I tune the performance.<br/>
+            I don’t just debug — I fine-tune the ride.<br/>
+            I don’t just deploy — I unleash the beast.<br/>
+            I don’t just ride — I live the rev.<br/>
+            I don’t just push code — I push limits.<br/>
+
+            So whether it’s pushing code to production or redlining down the highway — I go full throttle in everything I do. 💻🏍️🔥<br/>
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hey! It's
+                <strong>Madhu Nayani</strong>
+                and I’m a <strong> Full Stack Developer </strong> who loves crafting clean, <strong> responsive, and interactive websites  </strong>
+                from front to back. With a solid grip on <strong>, HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB </strong>, 
+                I turn ideas into full-fledged web experiences. Whether it's building sleek UIs or robust backends, 
+                I'm all about creating seamless digital solutions that make an impact.
+              </p>
+              <p class="about__content-details-para">
+                I'm a bit of a digital product junky. Over the years, I've used
+                hundreds of web and mobile apps in different industries and
+                verticals. Feel free to
+                <strong>contact</strong> me here.
+              </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">Bootstrap</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">JavaScript Essentials ES6</div>
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">React Js</div>
+              <div class="skills__skill">Node Js</div>
+              <div class="skills__skill">Express Js</div>
+              <div class="skills__skill">SQL</div>
+              <div class="skills__skill">RDBMS</div>
+              <div class="skills__skill">MongoDB</div>
+              <div class="skills__skill">GIT</div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            Here’s where code meets creativity and ideas come to life at full throttle. 
+            From full-stack web builds to sleek front-end interfaces, each project is a pit stop on my journey of pushing limits 
+            and building bold digital experiences. Buckle up — it’s about to get awesome. 🛠️🚀💻
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <!--Project 1-->
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Personal Portfolio Website</h3>
+              <p class="projects__row-content-desc">
+                Built. Tuned. Unleashed.<br />
+                Welcome to my digital garage — where clean code meets raw creative horsepower. 
+                This full-stack showcase is handcrafted with HTML, CSS, JavaScript, and supercharged with animations, dark mode, and 
+                pixel-perfect responsiveness. It’s not just a website; it’s a statement — a high-performance, mobile-ready machine that screams <br/>
+                "I build things that look good and run even better."
+              </p>
+              <a
+                href="./project-1.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/Movie-project.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <!--Project 2-->
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Movies Search</h3>
+              <p class="projects__row-content-desc">
+                Welcome to Movie Search — your turbocharged gateway to the cinematic multiverse. 
+                Built with a clean front-end stack and fueled by the might of OMDB and TMDB APIs, 
+                this web app lets users blaze through thousands of movies faster than a V8 on nitrous.
+                Just type, search, and boom 💥 — posters, ratings, plots, and more drop into view with smooth animations 
+                and a slick UI that responds like a performance-tuned dashboard. 
+              </p>
+              <a
+                href="./project-2.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/car-project-mockup.jpeg  "
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <!--Project 3-->
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Mad Wheels</h3>
+              <p class="projects__row-content-desc">
+                🚘 MadWheels – Car Dealership Website<br/>
+                "Built to thrill. Designed to sell. Fueled by code."<br/>
+                Welcome to MadWheels, a full-throttle car dealership website where modern design meets mechanical passion. This isn’t just a webpage — it’s a digital showroom on nitrous, crafted with HTML, CSS, and JavaScript to deliver an experience as smooth as a downshift in a twin-turbo V8.<br/>
+              </p>
+              <a
+                href="./project-3.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Got a killer project idea or just wanna talk horsepower and high-performance code? Slam that message pedal to the metal and hit me up! 
+            Whether it's revving up a website or talking torque curves, I’m always down to shift gears and build something badass.
+            Let’s burn rubber and push pixels — together. 💻⚙️🚗
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="#" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a rel="noreferrer" href="https://www.linkedin.com/in/madhunayani/" target="_blank" >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a  target="_blank" rel="noreferrer" href="https://github.com/SaiHemanth17">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://x.com/Mad_hu17">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/theonlymelophile/">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Madhu Nayani</h4>
+            <p class="main-footer__short-desc">
+              Fueled by passion, powered by code, and driven by engines — I’m Madhu Nayani, 
+              merging the worlds of full-stack development and high-octane horsepower. 
+              Thanks for cruising through my digital garage — see you on the next ride! 🏁💻🚘
+            </p>
+          </div>
+        </div>
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+          &copy; Copyright 2024. Made by
+          <a rel="noreferrer" target="_blank"  href="#index.html">
+            Madhu Nayani</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
